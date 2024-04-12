@@ -7,7 +7,7 @@ export default function Form() {
         about:'',
       })
       return(
-        <form>
+        <form className="control">
             <label htmlFor="firstName">Ваше имя</label>
             <input
                 type="text"
@@ -18,7 +18,7 @@ export default function Form() {
                   setForm((prev) => ({ ...prev, firstName: event.target.value }))
                 }
             />
-            <label htmlFor="secondName">Ваша фамилия</label>
+            <label htmlFor="secondName">Ваша фамілія</label>
             <input
                 type="text"
                 id="secondName"

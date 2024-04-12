@@ -1,6 +1,6 @@
 import { Button } from "../Button/Button"
 import { styled } from "styled-components"
-const FooterContainer = styled.header`
+const FooterContainer = styled.footer`
     border-radius: 50px;
     display:flex;
     justify-content: space-between;
