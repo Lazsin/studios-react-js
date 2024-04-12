@@ -17,7 +17,7 @@ export default function App() {
     <>
       <Header/>
       <main className="control">
-        <Form/>
+        {/* <Form/> */}
 
         <StudioSection/>
       </main>
