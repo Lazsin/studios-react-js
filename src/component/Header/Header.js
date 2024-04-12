@@ -28,10 +28,10 @@ export default function Header() {
         <HeaderContainer>
             <a href='/'><img src={logo} style={{height: 100, width: 100 }} alt="logo" /></a>
             <h1>Studios</h1>
-            {/* <h3>Time now: {now.toLocaleTimeString()}</h3> */}
+            <h3>Time now: {now.toLocaleTimeString()}</h3>
             <nav>
+                <a href='/'><Button>Home</Button></a>
                 <a href='/posts'><Button>Posts</Button></a>
-                <a href='/form'><Button>Form</Button></a>
             </nav>
         </HeaderContainer>
         <hr color="gray"></hr>
